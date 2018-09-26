@@ -1,0 +1,11 @@
+syntax="proto2";
+//import "PlayerInfo.proto";
+package msg;
+
+message Rqst_CreateSelf {
+	required int32 Account = 1;
+	required int32 Password = 2;
+	//required PlayerInfo playerinfo = 3;
+}
+
+
